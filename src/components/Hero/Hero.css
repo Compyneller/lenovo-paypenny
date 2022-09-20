@@ -1,0 +1,61 @@
+.hero__container{
+    min-height: 70vh !important;   
+    position: relative;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    overflow-x: hidden !important;
+    width: 100%;
+    flex-direction: column;
+}
+.hero__bg{
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-image: url("../../assets/PayPenny_Web banner 02_08 sep'22.jpg");
+    background-size: cover;
+    filter: brightness(.5);
+}
+
+
+.hero__heading{
+    font-size: 6vw;
+    color: #FFFFFF;
+    font-weight: bold;
+    text-align: center;
+}
+
+
+@media screen and (max-width : 950px) {
+    .hero__container{
+        min-height: 50vh !important;
+        position: relative;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        overflow-x: hidden !important;
+        width: 100%;
+        flex-direction: column;
+    }
+    .hero__bg{
+        position: absolute;
+        top: 0;
+        left: 0;
+        width: 100%;
+        height: 100%;
+        background-image: url("../../assets/PayPenny_Web banner 02_08 sep'22.jpg");
+        background-size: cover;
+        filter: brightness(.5);
+    }
+    .hero__heading{
+        font-size: 10vw;
+        color: #FFFFFF;
+        font-weight: bold;
+        text-align: center;
+    }
+   
+   
+  
+}
